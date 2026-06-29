@@ -1,11 +1,11 @@
 Flask
 gunicorn
-pandas
 numpy
+pandas
 scikit-learn
 joblib
-selenium
 beautifulsoup4
-lxml
-webdriver-manager
 requests
+lxml
+selenium
+webdriver-manager

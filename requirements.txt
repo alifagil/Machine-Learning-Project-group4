@@ -1,0 +1,11 @@
+Flask
+gunicorn
+pandas
+numpy
+scikit-learn
+joblib
+selenium
+beautifulsoup4
+lxml
+webdriver-manager
+requests

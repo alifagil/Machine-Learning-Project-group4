@@ -90,27 +90,31 @@ Deployment using Flask
 
 # 🌐 Web Application Workflow
 
-```text
-User Input
-│
-├── Manual Review
-│
-└── Product URL
-       │
-       ▼
- Selenium Web Scraper
-       │
-       ▼
- Extract Reviews
-       │
-       ▼
- TF-IDF Vectorizer
-       │
-       ▼
- Linear SVM Model
-       │
-       ▼
- Prediction Result
+```text                 User Input
+                      │
+        ┌─────────────┴─────────────┐
+        │                           │
+        ▼                           ▼
+ Manual Review                Product URL
+        │                           │
+        │                 Selenium Web Scraper
+        │                   (Next Feature)
+        │                           │
+        │                    Extract Reviews
+        └─────────────┬─────────────┘
+                      │
+                      ▼
+         Text Preprocessing
+         (Regex & Cleaning)
+                      │
+                      ▼
+            TF-IDF Vectorizer
+                      │
+                      ▼
+             Linear SVM Model
+                      │
+                      ▼
+             Prediction Result
 ```
 
 ---

@@ -90,7 +90,8 @@ Deployment using Flask
 
 # 🌐 Web Application Workflow
 
-```text                 User Input
+```text
+                   User Input
                       │
         ┌─────────────┴─────────────┐
         │                           │
